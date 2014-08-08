@@ -31,6 +31,7 @@
 #import "VkStrategy.h"
 #import "BopFm.h"
 #import "AmazonMusicStrategy.h"
+#import "VimeoStrategy.h"
 
 NSArray * DefaultMediaStrategies;
 
@@ -127,6 +128,7 @@ NSArray * DefaultMediaStrategies;
                                   [[XboxMusicStrategy alloc] init],
                                   [[VkStrategy alloc] init],
                                   [[BopFm alloc] init],
+                                  [[VimeoStrategy alloc] init],
                                   [[AmazonMusicStrategy alloc] init]
                                   ];
     }
